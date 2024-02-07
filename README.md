@@ -1,5 +1,5 @@
-# MyGitCommands
-
+# Команды для Git
+___
 git config --list --show-origin
 
 git config --global user.name <имя>
