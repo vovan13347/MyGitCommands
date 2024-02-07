@@ -49,7 +49,6 @@ git log -p  //git log --patch
 
 git log --oneline
 
-
 git tag
 git tag -a v1.0
 git tag -a v1.0 -m "Message"
@@ -68,7 +67,6 @@ git init
 
 git merge <название>
 
-
 git checkout -b <name>
 
 https://learngitbranching.js.org/?locale=ru_RU
@@ -80,10 +78,7 @@ a.txt  b.txt  c.txt  d.txt e.txt
 
 git reflog
 
-fastAPI
-
 git commit --amend
-
 
 git revert <номер коммита>
 
