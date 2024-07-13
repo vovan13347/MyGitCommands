@@ -5,23 +5,23 @@ ___
 
 `git config --global user.name <имя>`
 
-git config --global user.email "youremail@example.com"
+`git config --global user.email "youremail@example.com"`
 
-git init
+`git init`
 
-git add .
+`git add .`
 
-git config --global core.editor "code"
+`git config --global core.editor "code"`
 
-git commit
+`git commit`
 
-git commit -m "Сообщение"
+`git commit -m "Сообщение"`
 
 `git remote add origin "URL" ` - git remote add origin URL указывает, что вы добавляете удаленный репозиторий с указанным именем URLв качестве originлокального репозитория Git.
 
 `git push --set-upstream origin master` - отправить нашу главную ветку на исходный URL-адрес и установить ее в качестве удаленной ветки по умолчанию
 
-git commit --amend -m "Сообщение"
+`git commit --amend -m "Сообщение"`
 
 .gitignore
 
@@ -48,21 +48,21 @@ git show 28400179194c53b75972d3c3a86f83bd08669156
 
 52272f84a675979ff843e320d91715b7fb6ed1ba
 
-git log --grep="1.34.31"
+`git log --grep="1.34.31"`
 
-git log --stat
+`git log --stat`
 
 git log -p  //git log --patch
 
-git log --oneline
+`git log --oneline`
 
 git tag
 git tag -a v1.0
 git tag -a v1.0 -m "Message"
 
-git branch
+`git branch`
 
-git branch <название>
+`git branch <название>`
 
 git branch -f main HEAD~3
 
