@@ -48,13 +48,13 @@ git show 28400179194c53b75972d3c3a86f83bd08669156
 
 52272f84a675979ff843e320d91715b7fb6ed1ba
 
-`git log --grep="1.34.31"`
+git log --grep="1.34.31"
 
-`git log --stat`
+git log --stat
 
 git log -p  //git log --patch
 
-`git log --oneline`
+git log --oneline
 
 git tag
 git tag -a v1.0
