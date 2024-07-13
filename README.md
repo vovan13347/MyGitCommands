@@ -6,6 +6,8 @@ git config --global user.name <имя>
 
 git config --global user.email "youremail@example.com"
 
+git init
+
 git add .
 
 git config --global core.editor "code"
@@ -62,8 +64,6 @@ git branch -f main HEAD~3
 git checkout <название>
 
 git branch -d <название>
-
-git init
 
 git merge <название>
 
