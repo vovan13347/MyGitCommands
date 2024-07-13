@@ -17,7 +17,7 @@ git commit
 
 git commit -m "Сообщение"
 
-git remote add origin "URL"  - git remote add origin URL указывает, что вы добавляете удаленный репозиторий с указанным именем URLв качестве originлокального репозитория Git.
+git remote add origin "URL"  - git remote add origin URL указывает, что вы добавляете удаленный репозиторий с указанным именем URL в качестве origin локального репозитория Git.
 
 git push --set-upstream origin master - отправить нашу главную ветку на исходный URL-адрес и установить ее в качестве удаленной ветки по умолчанию
 
