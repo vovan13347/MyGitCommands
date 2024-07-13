@@ -1,16 +1,15 @@
 # Команды для Git
 ___
-```
-git config --list --show-origin
 
-git config --global user.name <имя>
+`git config --list --show-origin`
+
+`git config --global user.name <имя>`
 
 git config --global user.email "youremail@example.com"
 
 git init
 
 git add .
-```
 
 git config --global core.editor "code"
 
