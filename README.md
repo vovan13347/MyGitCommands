@@ -89,8 +89,13 @@ git revert <номер коммита>
 
 git reset --hard <номер коммита>
 
+New-Item -ItemType File -Path ".\README.md"
+
+# Команды для Github CLI
+___
+
 gh auth login
 
-gh repo create
+gh auth logout
 
-New-Item -ItemType File -Path ".\README.md"
+gh repo create my_flask_app --public
