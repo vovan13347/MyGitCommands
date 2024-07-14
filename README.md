@@ -17,7 +17,7 @@ git commit
 
 git commit -m "Сообщение"
 
-git remote add origin "URL"  - git remote add origin URL указывает, что вы добавляете удаленный репозиторий с указанным именем URL в качестве origin локального репозитория Git.
+git remote add origin "URL"  - указывает, что вы добавляете удаленный репозиторий с указанным именем URL в качестве origin локального репозитория Git.
 
 git push --set-upstream origin master - отправить нашу главную ветку на исходный URL-адрес и установить ее в качестве удаленной ветки по умолчанию
 
@@ -100,8 +100,10 @@ New-Item -ItemType File -Path ".\README.md"
 # Команды для Github CLI
 ___
 
-gh auth login
+sudo apt install gh - установка github cli
+
+gh auth login - вход в github cli
 
 gh auth logout
 
-gh repo create my_flask_app --public
+gh repo create my_flask_app --public - создание локального репозитория Github
