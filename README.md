@@ -106,4 +106,4 @@ gh auth login - вход в github cli
 
 gh auth logout
 
-gh repo create my_flask_app --public - создание локального репозитория Github
+gh repo create my_flask_app --public - создание удаленного репозитория на Github
