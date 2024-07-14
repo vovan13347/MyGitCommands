@@ -21,8 +21,6 @@ git remote add origin "URL"  - git remote add origin URL указывает, ч�
 
 git push --set-upstream origin master - отправить нашу главную ветку на исходный URL-адрес и установить ее в качестве удаленной ветки по умолчанию
 
-git remote add origin https://github.com/пользователь/my_flask_app.git
-
 git remote remove origin - удалить  репозиторий с указанным именем URL из Git
 
 git push -u origin master - добавить проект на github
