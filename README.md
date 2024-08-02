@@ -15,8 +15,6 @@ git add .
 
 git config --global core.editor "code"
 
-git commit
-
 git commit -m "Сообщение"
 
 git remote add origin URL  - указывает, что вы добавляете удаленный репозиторий с указанным именем URL в качестве origin локального репозитория Git.
