@@ -9,7 +9,7 @@ git config --global user.email "youremail@example.com"
 
 git init
 
-git status - Запрашивает текущее состояние репозитория
+git status - запрашивает текущее состояние репозитория
 
 git add .
 
