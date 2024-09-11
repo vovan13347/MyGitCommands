@@ -106,6 +106,8 @@ gh auth login - вход в github cli
 
 gh auth status - проверка вошли ли вы в систему и активна ли аутентификация для выполнения действий на GitHub
 
+gh --version
+
 gh auth logout
 
 gh repo create "имя репозитория" --public - создание удаленного репозитория на Github
