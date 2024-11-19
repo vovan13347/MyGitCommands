@@ -7,6 +7,8 @@ git config --global user.name "имя"
 
 git config --global user.email "youremail@example.com"
 
+git config --list - Проверка настроек
+
 git init
 
 git status - запрашивает текущее состояние репозитория
